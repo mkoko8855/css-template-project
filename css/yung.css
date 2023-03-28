@@ -1,0 +1,67 @@
+.sub_top {
+    padding: 100px;
+    box-sizing: border-box;
+    margin-left: 1230px;
+    font-size: 13px;
+}
+
+.visual .culture {
+    font-size: 65px;
+    font-weight: bold;
+    margin: -90px 0 120px 220px;
+}
+
+.visual img {
+    display:block;
+    width: 90%;
+    /* margin-top: 10px; */
+    margin: 0 auto;
+}
+
+.visual .wemake {
+    position: relative;
+}
+
+.visual .wemake .inner_container {
+    position: absolute;
+    left: 10%;
+    transform: translateY(-220%);   
+}
+
+div.visual .wemake .inner_container h2 {
+   font-size: 65px;
+   margin-top: -150px;
+   position: absolute;
+   bottom: 190px;
+   color: white;
+   font-weight: bold;
+}
+
+
+div.visual .wemake .inner_container .wemake_p {
+    font-size: 27px;
+    color: white;
+    font-weight: 3;
+    margin-bottom: -30px;
+    line-height: normal;
+}
+
+div.culture .inner_container h4 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 220px;
+    margin-top: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
