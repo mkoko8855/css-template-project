@@ -12,7 +12,7 @@
 }
 
 .visual img {
-    display:block;
+    display: block;
     width: 90%;
     /* margin-top: 10px; */
     margin: 0 auto;
@@ -25,16 +25,16 @@
 .visual .wemake .inner_container {
     position: absolute;
     left: 10%;
-    transform: translateY(-220%);   
+    transform: translateY(-220%);
 }
 
 div.visual .wemake .inner_container h2 {
-   font-size: 65px;
-   margin-top: -150px;
-   position: absolute;
-   bottom: 190px;
-   color: white;
-   font-weight: bold;
+    font-size: 65px;
+    margin-top: -150px;
+    position: absolute;
+    bottom: 190px;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -49,7 +49,7 @@ div.visual .wemake .inner_container .wemake_p {
 div.culture .inner_container h4 {
     font-size: 40px;
     font-weight: 900;
-    margin-left: 220px;
+    margin-left: 210px;
     margin-top: 250px;
 }
 
@@ -58,8 +58,6 @@ div.culture .c_gray_box .inner_container {
     background: #fcfcfc;
     margin-top: 80px;
 }
-
-
 
 div.culture .c_gray_box .inner_container ul {
     display: flex;
@@ -71,25 +69,119 @@ div.culture .c_gray_box .inner_container ul {
     margin: 0 auto;
     padding: 80px 0 80px 0;
     box-sizing: border-box;
-
 }
 
 div.culture .c_gray_box .inner_container ul h5 {
-    color: red;
     font-size: 25px;
     font-weight: bold;
+    margin-bottom: 25px;
+    justify-content: center;
+    width: 100%;
 }
 
-
-
+div.culture ul li .text-box {
+    width: 100%;
+    justify-content: center;
+}
 
 div.culture .c_gray_box .inner_container ul li .icon {
     margin: 0 25px 0 25px;
 }
 
+div.culture .c_gray_box .inner_container ul li {
+    position: relative;
+}
+
+div.culture .c_gray_box .inner_container ul li .text-box {
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.culture .c_gray_box .inner_container ul li .text-box p {
+    font-size: 17px;
+    opacity: 1;
+    color: #808080;
+}
+
+
+div.culture .c_gray_box .inner_container ul li .text-box i {
+    display: block;
+    margin-top: 20px;
+    color: gray;
+    font-size: 17px;
+}
+
+.inner_container .culture_text .c_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    border-bottom: 1px solid #e9dddd;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+    position:relative
+}
+
+
+.inner_container .culture_text .c_text .b_text {
+    font-size: 23px;
+    position: absolute;
+    top:140px;
+}
+
+.inner_container .culture_text .c_text .b_text .c_img{
+    margin-left: 800px;
+    margin-top: -200px;
+}
 
 
 
+
+
+.inner_container .culture_text .c_text .b_text h5 {
+    color:#808080;
+    margin-bottom: 20px;
+
+}
+
+
+.inner_container .culture_text .c_text .b_text .big_tit {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+
+}
+
+
+.inner_container .culture_text .c_text .b_text .c_content {
+    line-height: normal;
+
+}
+
+/* 
+.culture_right .c_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    border-bottom: 1px solid #e9dddd;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+    position:relative
+}
+
+
+.culture_right .c_text .small_tit{
+    font-size: 30px;
+    /* position:absolute;
+    top:110px;
+    right: 200px; */
+} */
 
 
 
