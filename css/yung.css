@@ -47,7 +47,7 @@ div.visual .wemake .inner_container .wemake_p {
 }
 
 div.culture .inner_container h4 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
     margin-left: 210px;
     margin-top: 250px;
@@ -73,7 +73,8 @@ div.culture .c_gray_box .inner_container ul {
 
 div.culture .c_gray_box .inner_container ul h5 {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: lighter;
+    color: rgb(77, 69, 69);
     margin-bottom: 25px;
     justify-content: center;
     width: 100%;
@@ -114,7 +115,7 @@ div.culture .c_gray_box .inner_container ul li .text-box i {
     font-size: 17px;
 }
 
-.inner_container .culture_text .c_text {
+.inner_container .culture_text .c_text {  /*유저중심 가장먼저*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,43 +128,51 @@ div.culture .c_gray_box .inner_container ul li .text-box i {
 }
 
 
-.inner_container .culture_text .c_text .b_text {
-    font-size: 23px;
-    position: absolute;
-    top:140px;
-}
 
-.inner_container .culture_text .c_text .b_text .c_img{
+.inner_container .culture_text .c_text .b_text .c_img{ /*유저중심 이미지*/
     margin-left: 800px;
     margin-top: -200px;
 }
 
 
-
-
-
-.inner_container .culture_text .c_text .b_text h5 {
+.inner_container .culture_text .c_text .b_text h5 { /*효율성과 정말 필요한 일에 집중합니다 사이의 간격*/
     color:#808080;
     margin-bottom: 20px;
-
 }
 
 
-.inner_container .culture_text .c_text .b_text .big_tit {
+.inner_container .culture_text .c_text .b_text .big_tit { /*글씨체*/
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 40px;
-
 }
 
 
 .inner_container .culture_text .c_text .b_text .c_content {
     line-height: normal;
-
 }
 
-/* 
-.culture_right .c_text{
+
+
+.inner_container .culture_text .c_text{
+        font-size: 23px;
+}
+
+
+
+
+p {
+    font-family: 'NEXON Lv 2 Gothic Light';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'NEXON Lv2 Gothic Bold';
+}
+
+
+
+
+.inner_container .culture_text .c_text_right{  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,12 +185,55 @@ div.culture .c_gray_box .inner_container ul li .text-box i {
 }
 
 
-.culture_right .c_text .small_tit{
-    font-size: 30px;
-    /* position:absolute;
-    top:110px;
-    right: 200px; */
+
+.inner_container .culture_text .c_text_right .b_text .c_img{ /*유저중심 이미지*/
+    margin-left: 800px;
+    margin-top: -200px;
+}
+
+
+.inner_container .culture_text .c_text_right .b_text h5 { /*효율성과 정말 필요한 일에 집중합니다 사이의 간격*/
+    color:#d7d0d0;
+    margin-bottom: 20px;
+}
+
+
+.inner_container .culture_text .c_text .b_text h5 { /*효율성과 정말 필요한 일에 집중합니다 사이의 간격*/
+    color:#d7d0d0;
+    margin-bottom: 20px;
+}
+
+
+
+.inner_container .culture_text .c_text_right .b_text .big_tit { /*글씨체*/
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+
+.inner_container .culture_text .c_text_right .b_text .c_content {
+    line-height: normal;
+}
+
+.inner_container .culture_text .c_text_right{
+    font-size: 23px;
+}
+
+
+/* .inner_container .culture_text .c_text_right .b_text .c_img {
+
 } */
 
 
+.culture_text .c_text .big_tit {
+    font-family : 'NEXON Lv2 Gothic Bold';
+}
 
+.culture_text .c_text_right .small_tit {
+    font-family : 'NEXON Lv2 Gothic Bold';
+}
+
+.culture_text .c_text_right .big_tit {
+    font-family : 'NEXON Lv2 Gothic Bold';
+}
